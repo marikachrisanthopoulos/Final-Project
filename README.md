@@ -28,12 +28,20 @@ The dataset for this project was found on Kaggle.com - click [here](https://www.
 - Total Columns: 19
 - Total Rows: 2938 (including headers)
 - Analyzable Columns:
-    - Age (missing: 0/2938)
+    - age (missing: 0/2938)
+    - sex (missing: 0/2938)
+    - breed (missing: 0/2938)
+    - date_found (missing: 0/2938)
+    - color (missing: 0/2938)
+    - coat (missing: 0/2938)
+    - siza (missing: 0/2938)
 - Removable Columns:
-    - ID (irrelevant)
-    - Name (irrelevant)
-    - Neutered (missing: 1085/2938)
-    - Housebroken (missing: 2477/2938)
+    - ID (irrelevant - missing: 0/2938)
+    - name (irrelevant - missing: 0/2938)
+    - adoptable_from (using date_found data for time of year instead - missing: 0/2938)
+    - posted (using date_found data for time of year instead - missing: 0/2938)
+    - neutered (missing: 1085/2938)
+    - housebroken (missing: 2477/2938)
     - likes_people (missing: 938/2938)
     - likes_children (missing: 1718/2938)
     - get_along_males (missing: 1304/2938)
@@ -49,7 +57,7 @@ The data listed above under "Analyzable Columns" will be analyzed to determine t
 1. Are dogs of certain ages more likely to be put up for adoption?
 2. Are male or female dogs more likely to be put up for adoption?
 3. Are dogs of unknown breeds more likely to be put up for adoption than dogs whose breeds are known?
-4. Are dogs put up for adoption at certain times of the year (winter, spring, summer, fall) more likely to be put up for adoption than others?
+4. Are dogs put up for adoption at certain times of the year (winter, spring, summer, fall) in comparison to others?
 5. Are dogs of certain colors more likely to be put up for adoption than others?
 6. Are dogs of certain coats (short, medium, long, wirehaired) more likely to be put up for adoption than others?
 7. Are dogs of certain sizes (small, medium, large) more likely to be put up for adoption than others?
