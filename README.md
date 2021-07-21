@@ -24,7 +24,7 @@ The dataset for this project was found on Kaggle.com - click [here](https://www.
 "The data is a compilation of information on dogs who were available for adoption on December 12, 2019 in the Hungarian Database of Homeless Pets. In total, there were 2,937 dogs in the database. It contains information on dogs' names, breed, color, age, sex, the date they were found, and some characteristics of their personalities."
 
 **Data Summary:**
-- File: [ShelterDogs.csv]()
+- File: [ShelterDogs.csv](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_1/Original_Dataset/ShelterDogs.csv)
 - Total Columns: 19
 - Total Rows: 2938 (including headers)
 - Analyzable Columns:
