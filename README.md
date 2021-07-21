@@ -63,7 +63,7 @@ The data listed above under "Analyzable Columns" will be analyzed to determine t
 ## Database
 The database for this project was created using AWS (Amazon Web Services), in collaboration with pgAdmin4 and Google Colaboratory/PySpark. I used similar methods/procedures as those completed in Module 16 (Big Data) in order to create my database and connect it to pgAdmin.
 
-Database:
+AWS Database: final-project.cwiwfogyf7o4.us-east-2.rds.amazonaws.com
 
 
 ## GitHub
