@@ -4,9 +4,9 @@
 
 ### Selected Topic and Reasoning
 
-Topic: prevalent characteristics amongst dogs that are put up for adoption.
+**Topic**: prevalent characteristics amongst dogs that are put up for adoption.
 
-Characteristics of Interest:
+**Characteristics of Interest:**
 - Age
 - Sex
 - Breed
@@ -15,7 +15,7 @@ Characteristics of Interest:
 - Coat
 - Size
 
-Reasoning:
+**Reasoning:**
 I am interested in determining whether certain types of dogs are more likely to be put up for adoption than others, based on the listed characteristics. I chose this topic because I am a lover of all animals, specifically dogs, and have had the wonderful pleasure of taking care of two different adopted dogs in my life so far. I believe that learning more about the dogs that are put up for adoption can help organizations and breeders prevent animals from being put up for adoption, while informing the general population of which kinds of dogs they can bring into their homes and provide better lives.
 
 ### Source of Data
@@ -23,7 +23,7 @@ The dataset for this project was found on Kaggle.com - click [here](https://www.
 
 "The data is a compilation of information on dogs who were available for adoption on December 12, 2019 in the Hungarian Database of Homeless Pets. In total, there were 2,937 dogs in the database. It contains information on dogs' names, breed, color, age, sex, the date they were found, and some characteristics of their personalities."
 
-Data Summary:
+**Data Summary:**
 - File: [ShelterDogs.csv]()
 - Total Columns: 19
 - Total Rows: 2938 (including headers)
