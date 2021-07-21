@@ -14,6 +14,7 @@
 - Color
 - Coat
 - Size
+- Liking people
 
 **Reasoning:**
 I am interested in determining whether certain types of dogs are more likely to be put up for adoption than others, based on the listed characteristics. I chose this topic because I am a lover of all animals, specifically dogs, and have had the wonderful pleasure of taking care of two different adopted dogs in my life so far. I believe that learning more about the dogs that are put up for adoption can help organizations and breeders prevent animals from being put up for adoption, while informing the general population of which kinds of dogs they can bring into their homes and provide better lives.
@@ -28,28 +29,28 @@ The dataset for this project was found on Kaggle.com - click [here](https://www.
 - Total Columns: 19
 - Total Rows: 2938 (including headers)
 - Analyzable Columns:
-    - age (missing: 0/2938)
-    - sex (missing: 0/2938)
-    - breed (missing: 0/2938)
-    - date_found (missing: 0/2938)
-    - color (missing: 0/2938)
-    - coat (missing: 0/2938)
-    - siza (missing: 0/2938)
+    - age (missing: 0/2937)
+    - sex (missing: 0/2937)
+    - breed (missing: 0/2937)
+    - date_found (missing: 0/2937)
+    - color (missing: 0/2937)
+    - coat (missing: 0/2937)
+    - size (missing: 0/2937)
+    - likes_people (missing: 938/2937)
 - Removable Columns:
-    - ID (irrelevant - missing: 0/2938)
-    - name (irrelevant - missing: 0/2938)
-    - adoptable_from (using date_found data for time of year instead - missing: 0/2938)
-    - posted (using date_found data for time of year instead - missing: 0/2938)
-    - neutered (missing: 1085/2938)
-    - housebroken (missing: 2477/2938)
-    - likes_people (missing: 938/2938)
-    - likes_children (missing: 1718/2938)
-    - get_along_males (missing: 1304/2938)
-    - get_along_females (missing: 1254/2938)
-    - get_along_cats (missing: 2506/2938)
-    - keep_in (missing: 1021/2938)
+    - ID (irrelevant - missing: 0/2937)
+    - name (irrelevant - missing: 0/2937)
+    - adoptable_from (using date_found data for time of year instead - missing: 0/2937)
+    - posted (using date_found data for time of year instead - missing: 0/2937)
+    - neutered (too much unknown data - missing: 1085/2937)
+    - housebroken (too much unknown data - missing: 2477/2937)
+    - likes_children (too much unknown data - missing: 1718/2937)
+    - get_along_males (too much unknown data - missing: 1304/2937)
+    - get_along_females (too much unknown data - missing: 1254/2937)
+    - get_along_cats (too much unknown data - missing: 2506/2937)
+    - keep_in (irrelevant - missing: 1021/2937)
 
-The data listed above under "Analyzable Columns" will be analyzed to determine trends. None of the data for these characteristics are missing, which provides an excellent and complete dataset for this analysis. The data in the "Removable Columns" section is going to be removed from the analysis because the data is either irrelevant (ID, Name) or has a significant amount of data missing in comparison to the total number of dogs included in the dataset.
+The data listed above under "Analyzable Columns" will be analyzed to determine trends. The data in the "Removable Columns" section is going to be removed from the analysis because the data is either irrelevant or has a significant amount of data missing in comparison to the total number of dogs included in the dataset (columns with over 1000 data points missing were considered as missing too much data).
 
 ### Questions/Goals
 
@@ -61,7 +62,8 @@ The data listed above under "Analyzable Columns" will be analyzed to determine t
 5. Are dogs of certain colors more likely to be put up for adoption than others?
 6. Are dogs of certain coats (short, medium, long, wirehaired) more likely to be put up for adoption than others?
 7. Are dogs of certain sizes (small, medium, large) more likely to be put up for adoption than others?
-8. Are different characteristics of these dogs grouped together in any ways? Are there any patterns between the most prevalent characteristics?
+8. Are dogs who like or don't like people more likely to be put up for adoption?
+9. Are different characteristics of these dogs grouped together in any ways? Are there any patterns between the most prevalent characteristics?
 
 **Goals**
 1. Discover trends in individual characteristics of adoptable dogs by analyzing the dataset.
