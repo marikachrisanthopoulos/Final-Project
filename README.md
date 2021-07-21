@@ -53,15 +53,22 @@ The data listed above under "Analyzable Columns" will be analyzed to determine t
 5. Are dogs of certain colors more likely to be put up for adoption than others?
 6. Are dogs of certain coats (short, medium, long, wirehaired) more likely to be put up for adoption than others?
 7. Are dogs of certain sizes (small, medium, large) more likely to be put up for adoption than others?
+8. Are different characteristics of these dogs grouped together in any ways? Are there any patterns between the most prevalent characteristics?
 
 **Goals**
 1. Discover trends in individual characteristics of adoptable dogs by analyzing the dataset.
 2. Discover related trends in characteristics of adoptable dogs by analyzing the dataset and determining whether there are significant relationships between certain attributes.
 
 ## Machine Learning Model
+For this project, I will use an unsupervised machine learning model in order to discover unknown patterns between the adoptable dog attributes in the dataset. I plan to use an unsupervised machine learning model because of the following points:
+
+1. There are no paired inputs and outcomes: there are no specified outcomes from this dataset - just patterns/relationships between the characteristics.
+2. The model uses a whole dataset as input: all of the data in the columns specified in the "Analyzabe Columns" list above (after being preprocessed as necessary) will be analyzed to determine trends/patterns, as well as relationships, amongst the characteristics.
+
+You can see the preprocessing work I completed in [this script]().
 
 ## Database
-The database for this project was created using AWS (Amazon Web Services), in collaboration with pgAdmin4 and Google Colaboratory/PySpark. I used similar methods/procedures as those completed in Module 16 (Big Data) in order to create my database and connect it to pgAdmin.
+The database for this project was is hosted by AWS (Amazon Web Services), connected to pgAdmin 4. I used similar methods/procedures as those completed in Module 16 (Big Data) in order to create my database and connect it to pgAdmin 4.
 
 AWS Database: final-project.cwiwfogyf7o4.us-east-2.rds.amazonaws.com
 
