@@ -77,11 +77,14 @@ For this project, I will use an unsupervised machine learning model in order to 
 
 You can see the preprocessing work I completed in [this script]().
 
+The next step for this model is to determine which specific statistical methods I will use in order to determine the relationships between specific characteristics.
+
 ## Database
 The database for this project was is hosted by AWS (Amazon Web Services), connected to pgAdmin 4. I used similar methods/procedures as those completed in Module 16 (Big Data) in order to create my database and connect it to pgAdmin 4.
 
 AWS Database: final-project.cwiwfogyf7o4.us-east-2.rds.amazonaws.com
 
+I created a sample database using a [subset of the entire dataset](LINK). You can see images of the tables I created for the database [here](LINK). These tables will be updated with the processed/finalized dataset. In addition, tables will be created in order to showcase the relationships that were determined using the project's machine learning models and statistics.
 
 ## GitHub
 
