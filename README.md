@@ -73,7 +73,7 @@ For this project, I will use an unsupervised machine learning model in order to 
 1. There are no paired inputs and outcomes: there are no specified outcomes from this dataset - just patterns/relationships between the characteristics.
 2. The model uses a whole dataset as input: all of the data in the columns specified in the "Analyzabe Columns" list above (after being preprocessed as necessary) will be analyzed to determine trends/patterns, as well as relationships, amongst the characteristics.
 
-You can see the initial preprocessing work I completed in [this script](). During the preprocessing steps, I completed the following:
+You can see the initial preprocessing work I completed in [this script](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_1/Deliverable_1_Preprocessing.ipynb). During the preprocessing steps, I completed the following:
 - Viewing and learning about the data (columns, data types, null values)
 - Dropping unnecessary columns
 - Removing null values
@@ -91,7 +91,7 @@ The database for this project was is hosted by AWS (Amazon Web Services), connec
 
 AWS Database: final-project.cwiwfogyf7o4.us-east-2.rds.amazonaws.com
 
-I created a sample database using two subsets of data: the first 200 values of the unprocessed data and the first 200 rows of processed data. I used both of these datasets in order to showcase the transformations that were completed during the preprocessing stage. Both datasets can be found [here](LINK). You can also view  images of the preliminary tables I created for the database [here](LINK). These tables will be updated with the processed/finalized dataset. In addition, additional tables will be created in order to showcase the relationships that were determined using the project's machine learning models and statistics.
+I created a sample database using two subsets of data: the first 200 values of the unprocessed data and the first 200 rows of processed data. I used both of these datasets in order to showcase the transformations that were completed during the preprocessing stage. Both datasets can be found [here](https://github.com/marikachrisanthopoulos/Final-Project/tree/Deliverable_1/Data). You can also view  images of the preliminary tables I created for the database [here](https://github.com/marikachrisanthopoulos/Final-Project/tree/Deliverable_1/Images). These tables will be updated with the processed/finalized dataset. In addition, additional tables will be created in order to showcase the relationships that were determined using the project's machine learning models and statistics.
 
 ## GitHub
 
