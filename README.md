@@ -10,8 +10,7 @@
 - Age
 - Sex
 - Breed
-- Time of Year found
-- Color
+- Time of Year (month) found
 - Coat
 - Size
 - Liking people
@@ -33,13 +32,13 @@ The dataset for this project was found on Kaggle.com - click [here](https://www.
     - sex (missing: 0/2937)
     - breed (missing: 0/2937)
     - date_found (missing: 0/2937)
-    - color (missing: 0/2937)
     - coat (missing: 0/2937)
     - size (missing: 0/2937)
     - likes_people (missing: 938/2937)
 - Removable Columns:
     - ID (irrelevant - missing: 0/2937)
     - name (irrelevant - missing: 0/2937)
+    - color (not easily described, too many options - missing: 0/2937)
     - adoptable_from (using date_found data for time of year instead - missing: 0/2937)
     - posted (using date_found data for time of year instead - missing: 0/2937)
     - neutered (too much unknown data - missing: 1085/2937)
@@ -59,11 +58,10 @@ The data listed above under "Analyzable Columns" will be analyzed to determine t
 2. Are male or female dogs more likely to be put up for adoption?
 3. Are dogs of unknown breeds more likely to be put up for adoption than dogs whose breeds are known?
 4. Are dogs put up for adoption at certain times of the year (winter, spring, summer, fall) in comparison to others?
-5. Are dogs of certain colors more likely to be put up for adoption than others?
-6. Are dogs of certain coats (short, medium, long, wirehaired) more likely to be put up for adoption than others?
-7. Are dogs of certain sizes (small, medium, large) more likely to be put up for adoption than others?
-8. Are dogs who like or don't like people more likely to be put up for adoption?
-9. Are different characteristics of these dogs grouped together in any ways? Are there any patterns between the most prevalent characteristics?
+5. Are dogs of certain coats (short, medium, long, wirehaired) more likely to be put up for adoption than others?
+6. Are dogs of certain sizes (small, medium, large) more likely to be put up for adoption than others?
+7. Are dogs who like or don't like people more likely to be put up for adoption?
+8. Are different characteristics of these dogs grouped together in any ways? Are there any patterns between the most prevalent characteristics?
 
 **Goals**
 1. Discover trends in individual characteristics of adoptable dogs by analyzing the dataset.
