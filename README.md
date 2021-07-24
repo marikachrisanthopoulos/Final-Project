@@ -60,7 +60,7 @@ I am interested in determining whether certain types of dogs are more likely to 
 2. Discover related trends in characteristics of adoptable dogs by analyzing the dataset and determining whether there are significant relationships between certain attributes.
 
 ### Google Slides
-*Formal Presentation on Google Slides can be found [here](LINK).*
+Formal Presentation on Google Slides can be found [here](https://docs.google.com/presentation/d/1yfcbV4N6XhM7GA3Mrze-t3AU_v3_R3KXNWspXaav2y0/edit?usp=sharing).
 
 ## Data Analysis, Exploration, and Database Overviews
 
