@@ -60,13 +60,14 @@ I am interested in determining whether certain types of dogs are more likely to 
 2. Discover related trends in characteristics of adoptable dogs by analyzing the dataset and determining whether there are significant relationships between certain attributes.
 
 ### Google Slides
-Formal Presentation on Google Slides can be found [here](LINK).
+*Formal Presentation on Google Slides can be found [here](LINK).*
 
 ## Data Analysis, Exploration, and Database Overviews
 
 ### Data Exploration - Preprocessing
 
 Script: [Preprocessing_Script](LINK)
+
 Procedure:
 - Viewing and learning about the data (columns, data types, null values)
 - Dropping unnecessary columns
@@ -79,10 +80,13 @@ Procedure:
 
 Script:
 Model Type: Unsupervised Machine Learning Model
+
 Reasoning for Model Choice:
 - There are no paired inputs and outcomes: there are no specified outcomes from this dataset - just patterns/relationships between the characteristics.
 - The model uses a whole dataset as input: all of the data in the columns specified in the "Analyzabe Columns" list above (after being preprocessed as necessary) will be analyzed to determine trends/patterns, as well as relationships, amongst the characteristics.
+
 Procedure:
+- *TBD*
 
 ### Database
 
@@ -91,13 +95,13 @@ Programs/Hosting Sites:
 - pgAdmin 4
 
 Tables:
-- Table 1 - : 200 rows of unprocessed (raw, original) data
-- Table 2 - : 200 rows of processed data
+- [original_sample_table](LINK): 200 rows of unprocessed (raw, original) data
+- [processed_sample_table](LINK): 200 rows of processed data
 
 Table Images:
-- [Table 1; Image 1](LINK)
-- [Table 1; Image 2](LINK)
-- [Table 2](LINK)
+- [original_sample_table; Image 1](LINK)
+- [original_sample_table; Image 2](LINK)
+- [processed_sample_table](LINK)
 
 
 ## Communication/Organizational Protocols
