@@ -79,14 +79,18 @@ Procedure:
 ### Data Analysis
 
 Script:
+
 Model Type: Unsupervised Machine Learning Model
 
-Reasoning for Model Choice:
+Explanation/Reasoning for Model Choice:
 - There are no paired inputs and outcomes: there are no specified outcomes from this dataset - just patterns/relationships between the characteristics.
 - The model uses a whole dataset as input: all of the data in the columns specified in the "Analyzabe Columns" list above (after being preprocessed as necessary) will be analyzed to determine trends/patterns, as well as relationships, amongst the characteristics.
 
 Procedure:
-- *TBD*
+- Preliminary feature engineering and selection:
+- Splitting into training/testing sets:
+- Limitations:
+- Benefits:
 
 ### Database
 
