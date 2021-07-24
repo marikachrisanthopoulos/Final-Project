@@ -91,7 +91,7 @@ The database for this project was is hosted by AWS (Amazon Web Services), connec
 
 AWS Database: final-project.cwiwfogyf7o4.us-east-2.rds.amazonaws.com
 
-I created a sample database using two subsets of data: the first 200 values of the unprocessed data and the first 200 rows of processed data. I used both of these datasets in order to showcase the transformations that were completed during the preprocessing stage. Both datasets can be found [here](LINK). You can see images of the tables I created for the database [here](LINK). These tables will be updated with the processed/finalized dataset. In addition, additional tables will be created in order to showcase the relationships that were determined using the project's machine learning models and statistics.
+I created a sample database using two subsets of data: the first 200 values of the unprocessed data and the first 200 rows of processed data. I used both of these datasets in order to showcase the transformations that were completed during the preprocessing stage. Both datasets can be found [here](LINK). You can also view  images of the preliminary tables I created for the database [here](LINK). These tables will be updated with the processed/finalized dataset. In addition, additional tables will be created in order to showcase the relationships that were determined using the project's machine learning models and statistics.
 
 ## GitHub
 
