@@ -38,7 +38,7 @@ The dataset for this project was found on Kaggle.com - click [here](https://www.
 - Removable Columns:
     - ID (irrelevant - missing: 0/2937)
     - name (irrelevant - missing: 0/2937)
-    - color (not easily described, too many options - missing: 0/2937)
+    - color (not easily described in the dataset - groupings are not specific, too many options - missing: 0/2937)
     - adoptable_from (using date_found data for time of year instead - missing: 0/2937)
     - posted (using date_found data for time of year instead - missing: 0/2937)
     - neutered (too much unknown data - missing: 1085/2937)
@@ -73,16 +73,25 @@ For this project, I will use an unsupervised machine learning model in order to 
 1. There are no paired inputs and outcomes: there are no specified outcomes from this dataset - just patterns/relationships between the characteristics.
 2. The model uses a whole dataset as input: all of the data in the columns specified in the "Analyzabe Columns" list above (after being preprocessed as necessary) will be analyzed to determine trends/patterns, as well as relationships, amongst the characteristics.
 
-You can see the preprocessing work I completed in [this script]().
+You can see the initial preprocessing work I completed in [this script](). During the preprocessing steps, I completed the following:
+- Viewing and learning about the data (columns, data types, null values)
+- Dropping unnecessary columns
+- Removing null values
+- Transforming string values to numerical outputs (all columns besides values for "age")
+- Exporting processed data into a .csv file for further analysis
+- Creating sample datasets: first 200 values of unprocessed (original) and processed data
 
-The next step for this model is to determine which specific statistical methods I will use in order to determine the relationships between specific characteristics.
+The next steps for this model include:
+- Determining which specific statistical methods I will use in order to determine the relationships between specific characteristics.
+- Creating, training, and testing the model.
+- Running the model to achieve output results.
 
 ## Database
 The database for this project was is hosted by AWS (Amazon Web Services), connected to pgAdmin 4. I used similar methods/procedures as those completed in Module 16 (Big Data) in order to create my database and connect it to pgAdmin 4.
 
 AWS Database: final-project.cwiwfogyf7o4.us-east-2.rds.amazonaws.com
 
-I created a sample database using a [subset of the entire dataset](LINK). You can see images of the tables I created for the database [here](LINK). These tables will be updated with the processed/finalized dataset. In addition, tables will be created in order to showcase the relationships that were determined using the project's machine learning models and statistics.
+I created a sample database using two subsets of data: the first 200 values of the unprocessed data and the first 200 rows of processed data. I used both of these datasets in order to showcase the transformations that were completed during the preprocessing stage. Both datasets can be found [here](LINK). You can see images of the tables I created for the database [here](LINK). These tables will be updated with the processed/finalized dataset. In addition, additional tables will be created in order to showcase the relationships that were determined using the project's machine learning models and statistics.
 
 ## GitHub
 
