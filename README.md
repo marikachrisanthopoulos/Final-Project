@@ -88,9 +88,18 @@ Explanation/Reasoning for Model Choice:
 
 **Procedures**
 - Uploading processed data into jupyter notebook
-- 
-- Limitations:
-- Benefits:
+- K Centroids
+-   Limitations:
+-   Benefits:
+-   Images:
+- PCA
+-   Limitations:
+-   Benefits:
+-   Images:
+- Hierarchical Clustering
+-   Limitations:
+-   Benefits:
+-   Images:
 
 ### Database
 
@@ -109,7 +118,7 @@ Database Images:
 - [original_sample_table; Image 2](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Images/original_sample_table_2.png)
 - [processed_sample_table](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Images/processed_sample_table.png)
 - [processed_data_table](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Images/processed_data_table.png)
-- [pca_data_table](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Images/pca_table_data.png)
+- [pca_data_table](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Images/pca_data_table.png)
 - [ERD](LINK)
 
 ## Communication/Organizational Protocols
