@@ -66,7 +66,7 @@ Formal Presentation on Google Slides can be found [here](https://docs.google.com
 
 ### Data Exploration - Preprocessing
 
-**Script:** [Preprocessing_Script](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_1/Deliverable_1_Preprocessing.ipynb)
+**Script:** [Preprocessing_Script](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Deliverable_1_Preprocessing.ipynb)
 
 **Procedures**:
 1. Viewing and learning about the data (columns, data types, null values)
@@ -78,7 +78,7 @@ Formal Presentation on Google Slides can be found [here](https://docs.google.com
 
 ### Data Analysis
 
-**Script:** [Deliverable_2_Analysis.ipynb](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_1/Deliverable_2_Analysis.ipynb)
+**Script:** [Deliverable_2_Analysis.ipynb](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Deliverable_2_Analysis.ipynb)
 
 **Model Type:** Unsupervised Machine Learning Model
 
