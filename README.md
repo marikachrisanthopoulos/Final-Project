@@ -64,7 +64,7 @@ Formal Presentation on Google Slides can be found [here](https://docs.google.com
 
 ## Data Analysis, Exploration, and Database Overviews
 
-### Data Exploration - Preprocessing
+### Data Exploration - Preprocessing (Deliverable 1)
 
 **Script:** [Preprocessing_Script](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_3/Deliverable_1_Preprocessing.ipynb)
 
@@ -76,7 +76,7 @@ Formal Presentation on Google Slides can be found [here](https://docs.google.com
 5. Exporting processed data into a .csv file for further analysis
 6. Creating sample datasets: first 200 values of unprocessed (original) and processed data
 
-### Data Analysis
+### First Analysis (Deliverable 2)
 
 **Script:** [Deliverable_2_Analysis.ipynb](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_3/Deliverable_2_Analysis.ipynb)
 
@@ -119,6 +119,16 @@ Overall, the clustering models do not showcase the relationships between the cha
 
 In order to obtain more concrete/quantifiable results, statistical tests in R will be run.
 
+### Second Analysis (Deliverable 3)
+
+**Script:** 
+
+**Model Type:**
+
+**Procedures:**
+
+**Conclusion/Results:** 
+
 ### Database
 
 Programs/Hosting Sites:
@@ -131,20 +141,24 @@ Datasets:
 - [processed_data.csv](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_3/Data/processed_data.csv): all processed data
 - [pca_data.csv](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_3/Data/PCA_data.csv): results of completing PCA on processed data
 
-Database Images:
+Table Images:
 - [original_sample_table; Image 1](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_3/Images/original_sample_table_1.png)
 - [original_sample_table; Image 2](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_3/Images/original_sample_table_2.png)
 - [processed_sample_table](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_3/Images/processed_sample_table.png)
 - [processed_data_table](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_3/Images/processed_data_table.png)
 - [pca_data_table](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_3/Images/pca_data_table.png)
+
+Entity Relationship Diagrams (ERD's):
 - [ERD](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_3/Images/ERD_Deliverable_2.png)
 
 ### Dashboard
 A blueprint for the Dashboard can be found in the [Google Slides Formal Presentation](https://docs.google.com/presentation/d/1yfcbV4N6XhM7GA3Mrze-t3AU_v3_R3KXNWspXaav2y0/edit?usp=sharing).
 
-### Technologies, Languages, Tools, Algorithms
+The completed dashboard can be found [here](LINK).
 
-**Technologies**
+### Technologies/Tools, Languages, Algorithms
+
+**Technologies/Tools**
 - Microsoft Excel
 - pgAdmin 4
 - Amazon Web Services
@@ -152,15 +166,13 @@ A blueprint for the Dashboard can be found in the [Google Slides Formal Presenta
 - R Studio
 - Tableau Public
 - Google Slides
+- QuickDBD
 - Github
 
 **Languages**
 - Python
 - R
 - SQL
-
-**Tools**
-- Google
 
 **Algorithms**
 - K-means Algorithm
