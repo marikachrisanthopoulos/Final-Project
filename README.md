@@ -20,7 +20,7 @@ I am interested in determining whether certain types of dogs are more likely to 
 ### Source of Data
 - Original Data Source: [Adoptable-Dogs on Kaggle](https://www.kaggle.com/jmolitoris/adoptable-dogs?select=ShelterDogs.csv)
 - Data Source Summary (Kaggle): "The data is a compilation of information on dogs who were available for adoption on December 12, 2019 in the Hungarian Database of Homeless Pets. In total, there were 2,937 dogs in the database. It contains information on dogs' names, breed, color, age, sex, the date they were found, and some characteristics of their personalities."
-- File: [ShelterDogs.csv](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Original_Dataset/ShelterDogs.csv))
+- File: [ShelterDogs.csv](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Original_Dataset/ShelterDogs.csv)
 - Total Columns: 19
 - Total Rows: 2938 (including headers)
 - Analyzable Columns:
@@ -66,7 +66,7 @@ Formal Presentation on Google Slides can be found [here](https://docs.google.com
 
 ### Data Exploration - Preprocessing
 
-Script: [Preprocessing_Script](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_1/Deliverable_2_Preprocessing.ipynb)
+Script: [Preprocessing_Script](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_1/Deliverable_1_Preprocessing.ipynb)
 
 Procedure:
 - Viewing and learning about the data (columns, data types, null values)
@@ -78,7 +78,7 @@ Procedure:
 
 ### Data Analysis
 
-**Script:**
+**Script:** [Deliverable_2_Analysis.ipynb](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_1/Deliverable_2_Analysis.ipynb)
 
 **Model Type:** Unsupervised Machine Learning Model
 
@@ -87,8 +87,8 @@ Explanation/Reasoning for Model Choice:
 - The model uses a whole dataset as input: all of the data in the columns specified in the "Analyzabe Columns" list above (after being preprocessed as necessary) will be analyzed to determine trends/patterns, as well as relationships, amongst the characteristics.
 
 **Procedures**
-- Preliminary feature engineering and selection:
-- Splitting into training/testing sets:
+- Uploading processed data into jupyter notebook
+- 
 - Limitations:
 - Benefits:
 
@@ -98,17 +98,19 @@ Programs/Hosting Sites:
 - Amazon Web Services (AWS) Database: final-project.cwiwfogyf7o4.us-east-2.rds.amazonaws.com
 - pgAdmin 4
 
-Tables:
-- [original_sample_table](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Data/original_sample.csv): 200 rows of unprocessed (raw, original) data
-- [processed_sample_table](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Data/processed_sample.csv): 200 rows of processed data
-- [pca_data_table](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Data/PCA_data.csv): results of completing PCA on processed data
+Datasets:
+- [original_sample.csv](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Data/original_sample.csv): 200 rows of unprocessed (raw, original) data
+- [processed_sample.csv](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Data/processed_sample.csv): 200 rows of processed data
+- [processed_data.csv](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Data/processed_data.csv): all processed data
+- [pca_data.csv](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Data/PCA_data.csv): results of completing PCA on processed data
 
-Table Images:
+Database Images:
 - [original_sample_table; Image 1](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Images/original_sample_table_1.png)
 - [original_sample_table; Image 2](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Images/original_sample_table_2.png)
 - [processed_sample_table](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Images/processed_sample_table.png)
+- [processed_data_table](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Images/processed_data_table.png)
 - [pca_data_table](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Images/pca_table_data.png)
-
+- [ERD](LINK)
 
 ## Communication/Organizational Protocols
 - Different branches for individual Deliverables to keep work for each segment organized.
