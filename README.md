@@ -20,7 +20,7 @@ I am interested in determining whether certain types of dogs are more likely to 
 ### Source of Data
 - Original Data Source: [Adoptable-Dogs on Kaggle](https://www.kaggle.com/jmolitoris/adoptable-dogs?select=ShelterDogs.csv)
 - Data Source Summary (Kaggle): "The data is a compilation of information on dogs who were available for adoption on December 12, 2019 in the Hungarian Database of Homeless Pets. In total, there were 2,937 dogs in the database. It contains information on dogs' names, breed, color, age, sex, the date they were found, and some characteristics of their personalities."
-- File: [ShelterDogs.csv](LINK)
+- File: [ShelterDogs.csv](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Original_Dataset/ShelterDogs.csv))
 - Total Columns: 19
 - Total Rows: 2938 (including headers)
 - Analyzable Columns:
@@ -66,7 +66,7 @@ Formal Presentation on Google Slides can be found [here](https://docs.google.com
 
 ### Data Exploration - Preprocessing
 
-Script: [Preprocessing_Script](LINK)
+Script: [Preprocessing_Script](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_1/Deliverable_2_Preprocessing.ipynb)
 
 Procedure:
 - Viewing and learning about the data (columns, data types, null values)
@@ -99,13 +99,15 @@ Programs/Hosting Sites:
 - pgAdmin 4
 
 Tables:
-- [original_sample_table](LINK): 200 rows of unprocessed (raw, original) data
-- [processed_sample_table](LINK): 200 rows of processed data
+- [original_sample_table](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Data/original_sample.csv): 200 rows of unprocessed (raw, original) data
+- [processed_sample_table](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Data/processed_sample.csv): 200 rows of processed data
+- [pca_data_table](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Data/PCA_data.csv): results of completing PCA on processed data
 
 Table Images:
-- [original_sample_table; Image 1](LINK)
-- [original_sample_table; Image 2](LINK)
-- [processed_sample_table](LINK)
+- [original_sample_table; Image 1](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Images/original_sample_table_1.png)
+- [original_sample_table; Image 2](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Images/original_sample_table_2.png)
+- [processed_sample_table](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Images/processed_sample_table.png)
+- [pca_data_table](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_2/Images/pca_table_data.png)
 
 
 ## Communication/Organizational Protocols
