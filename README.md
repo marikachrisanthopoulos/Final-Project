@@ -142,6 +142,31 @@ Database Images:
 ### Dashboard
 A blueprint for the Dashboard can be found in the [Google Slides Formal Presentation](https://docs.google.com/presentation/d/1yfcbV4N6XhM7GA3Mrze-t3AU_v3_R3KXNWspXaav2y0/edit?usp=sharing).
 
+### Technologies, Languages, Tools, Algorithms
+
+**Technologies**
+- Microsoft Excel
+- pgAdmin 4
+- Amazon Web Services
+- Jupyter Notebook
+- R Studio
+- Tableau Public
+- Google Slides
+- Github
+
+**Languages**
+- Python
+- R
+- SQL
+
+**Tools**
+- Google
+
+**Algorithms**
+- K-means Algorithm
+- Principal Component Analysis (PCA)
+- Hierarchical Clustering
+
 ## Communication/Organizational Protocols
 - Different branches for individual Deliverables to keep work for each segment organized.
 - Staying on top of my own work and troubleshooting using the Google when necessary.
