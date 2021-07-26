@@ -155,6 +155,22 @@ The results suggest we can reject the null hypothesis for most of the characteri
 
 Therefore, we can conclude that the frequency of the outcomes of these variables are related to being put up for adoption.
 
+### Third Analysis (Deliverable 4)
+
+**Script:** [Third_Analysis](LINK)
+
+**Statistical Analyses:** Summary Statistics using Python/Pandas/Jupyter Notebook
+
+**Explanation/Reasoning for Model Choice:**
+- Generating summary statistics to compliment the results from the first and second analyses.
+
+**Procedures:**
+- Uploading processed data into jupyter notebook.
+- Generating summary statistics for all columns/variables.
+
+**Conclusion/Results:**
+Summary statistics were generated for each variable, including the mean, standard deviation, min, 25%, 50%, 75%, and max. These results can be viewed [here](LINK).
+
 ### Database
 
 Programs/Hosting Sites:
