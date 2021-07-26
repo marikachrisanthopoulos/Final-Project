@@ -146,7 +146,8 @@ Chi-squared test using RStudio
 
 These results can be viewed in the following table [here](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_3/Data/Chi_Squared_Results.xlsx).
 
-**Interpretation**
+**Interpretation:**
+
 The results suggest we can reject the null hypothesis for most of the characteristics, based on the p-values being less than 0.05. The hypotheses for this analysis are:
 
 - H0 : There is no difference in frequency distribution between both groups.
