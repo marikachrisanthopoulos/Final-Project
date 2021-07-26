@@ -148,7 +148,7 @@ The results suggest we can reject the null hypothesis for most of the characteri
 - H0 : There is no difference in frequency distribution between both groups.
 - Ha : There is a difference in frequency distribution between both groups
 
-Therefore, we can conclude that the two variables are related in terms of frequency.
+Therefore, we can conclude that the frequency of the outcomes of these variables are related to being put up for adoption.
 
 ### Database
 
