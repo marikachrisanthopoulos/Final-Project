@@ -82,7 +82,7 @@ Formal Presentation on Google Slides can be found [here](https://docs.google.com
 
 **Model Type:** Unsupervised Machine Learning Model using Python/Pandas/Jupyter Notebook
 
-Explanation/Reasoning for Model Choice:
+**Explanation/Reasoning for Model Choice:**
 - There are no paired inputs and outcomes: there are no specified outcomes from this dataset - just patterns/relationships between the characteristics.
 - The model uses a whole dataset as input: all of the data in the columns specified in the "Analyzabe Columns" list above (after being preprocessed as necessary) will be analyzed to determine trends/patterns, as well as relationships, amongst the characteristics.
 
@@ -124,7 +124,11 @@ In order to obtain more concrete/quantifiable results, statistical tests in R wi
 **Script:** [Second_Analysis](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_3/Deliverable_3_Analysis.Rproj)
 
 **Statistical Analyses:**
-Chi-Squared Test using RStudio
+Chi-squared test using RStudio
+
+**Explanation/Reasoning for Model Choice:**
+- Chi-squared tests are used to compare the distribution of frequencies across two groups.
+- These tests outline conclusions and interpret categorical data (which is the majority of the data used in this analysis).
 
 **Procedures:**
 1. Adding column "up_for_adoption" to processed_data.csv (all dogs received a "1" to indicate that they were put up for adoption).
