@@ -78,7 +78,7 @@ Formal Presentation on Google Slides can be found [here](https://docs.google.com
 
 ### First Analysis (Deliverable 2)
 
-**Script:** [Deliverable_2_Analysis.ipynb](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_3/Deliverable_2_Analysis.ipynb)
+**Script:** [First_Analysis.ipynb](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_3/Deliverable_2_Analysis.ipynb)
 
 **Model Type:** Unsupervised Machine Learning Model using Python/Pandas/Jupyter Notebook
 
@@ -121,7 +121,7 @@ In order to obtain more concrete/quantifiable results, statistical tests in R wi
 
 ### Second Analysis (Deliverable 3)
 
-**Script:**
+**Script:** [Second_Analysis]()
 
 **Statistical Analyses:**
 Chi-Squared Test using RStudio
@@ -132,26 +132,15 @@ Chi-Squared Test using RStudio
 
 **Conclusion/Results:**
 
-Age vs. Being put up for Adoption
-X-squared = 1323.7, df = 222, p-value < 2.2e-16
+- Age vs. Being put up for Adoption: X-squared = 1323.7, df = 222, p-value < 2.2e-16
+- Sex vs. Being put up for Adoption: X-squared = 47.148, df = 1, p-value = 6.582e-12
+- Breed vs. Being put up for Adoption: X-squared = 0.42071, df = 1, p-value = 0.5166
+- Liking People vs. Being put up for Adoption: X-squared = 1967.1, df = 1, p-value < 2.2e-16
+- Coat Color/Pattern vs. Being put up for Adoption: X-squared = 2104.2, df = 3, p-value < 2.2e-16
+- Size vs. Being put up for Adoption: X-squared = 884.12, df = 2, p-value < 2.2e-16
+- Month Found vs. Being put up for Adoption: X-squared = 32.014, df = 11, p-value = 0.0007589
 
-Sex vs. Being put up for Adoption
-X-squared = 47.148, df = 1, p-value = 6.582e-12
-
-Breed vs. Being put up for Adoption
-X-squared = 0.42071, df = 1, p-value = 0.5166
-
-Liking People vs. Being put up for Adoption
-X-squared = 1967.1, df = 1, p-value < 2.2e-16
-
-Coat Color/Pattern vs. Being put up for Adoption
-X-squared = 2104.2, df = 3, p-value < 2.2e-16
-
-Size vs. Being put up for Adoption
-X-squared = 884.12, df = 2, p-value < 2.2e-16
-
-Month Found vs. Being put up for Adoption
-X-squared = 32.014, df = 11, p-value = 0.0007589
+These results can be viewed in the following table [here](LINK).
 
 **Interpretation**
 The 
