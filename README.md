@@ -180,7 +180,7 @@ Entity Relationship Diagrams (ERD's):
 ### Dashboard
 A blueprint for the Dashboard can be found in the [Google Slides Formal Presentation](https://docs.google.com/presentation/d/1yfcbV4N6XhM7GA3Mrze-t3AU_v3_R3KXNWspXaav2y0/edit?usp=sharing).
 
-The completed dashboard can be found [here](LINK).
+The completed dashboard can be found [here](https://public.tableau.com/app/profile/marika.chrisanthopoulos/viz/final_project_16272619899530/).
 
 ### Technologies/Tools, Languages, Algorithms
 
