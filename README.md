@@ -121,7 +121,7 @@ In order to obtain more concrete/quantifiable results, statistical tests in R wi
 
 ### Second Analysis (Deliverable 3)
 
-**Script:** [Second_Analysis]()
+**Script:** [Second_Analysis](LINK)
 
 **Statistical Analyses:**
 Chi-Squared Test using RStudio
@@ -143,7 +143,7 @@ Chi-Squared Test using RStudio
 These results can be viewed in the following table [here](LINK).
 
 **Interpretation**
-The 
+The results suggest we can reject the null hypothesis for most of the characteristics, based on the p-values being less than 0.05, concluding that the two variables are related and possibly dependent on each other.
 
 
 ### Database
