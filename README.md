@@ -157,7 +157,7 @@ Therefore, we can conclude that the frequency of the outcomes of these variables
 
 ### Third Analysis (Deliverable 4)
 
-**Script:** [Third_Analysis](LINK)
+**Script:** [Third_Analysis](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_4/Deliverable_4_Analysis.ipynb)
 
 **Statistical Analyses:** Summary Statistics using Python/Pandas/Jupyter Notebook
 
@@ -169,7 +169,7 @@ Therefore, we can conclude that the frequency of the outcomes of these variables
 - Generating summary statistics for all columns/variables.
 
 **Conclusion/Results:**
-Summary statistics were generated for each variable, including the mean, standard deviation, min, 25%, 50%, 75%, and max. These results can be viewed [here](LINK).
+Summary statistics were generated for each variable, including the mean, standard deviation, min, 25%, 50%, 75%, and max. These results can be viewed [here](https://github.com/marikachrisanthopoulos/Final-Project/blob/Deliverable_4/Data/summary_stats.csv).
 
 ### Database
 
